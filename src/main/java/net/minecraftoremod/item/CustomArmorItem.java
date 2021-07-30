@@ -18,6 +18,7 @@ public class CustomArmorItem extends ArmorItem {
             return "examplemod:textures/models/armor/custom_armor_layer_1.png";
         }
     }
+    
     public static Item HELM = new CustomArmorItem(ArmorMaterial.IRON, EquipmentSlotType.HEAD, properties).setRegistryName(BaseMod.MODID,"customhelm");
 }
 //test
