@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 public class ItemMod {
 
     //BASIC ITEMS
-    public static final Item STRUCTURE_GEL = ItemUtils.buildBasicItem("structuregel", ItemGroup.MISC);
+    public static final Item blueingot = ItemUtils.buildbasicItem("blueingot", ItemGroup.MISC);
 
     //FOODS
 
@@ -19,8 +19,7 @@ public class ItemMod {
     public static void registerItems(RegistryEvent.Register<Item> event) {
 
         //BASIC ITEMS
-        event.getRegistry().register(STRUCTURE_GEL);
-
+        event.getRegistry().register(blueingot);
         // ITEMS
 
         // TOOLS
