@@ -1,5 +1,8 @@
 {
   "item.examplemod.rubyingot":"Ruby",
-  "item.examplemod.blueingot":"Blue Ingot"
-
+  "item.examplemod.blueingot":"Blue Ingot",
+  "item.examplemod.emeraldhelm":"Emerald Helmet"
+  "item.examplemod.emeraldpants":"Emerald Pants",
+  "item.examplemod.emeraldshirt":"Emerald Chestplate:,
+  "item.examplemod.emeraldboots":"Emerald Boots"
 }
