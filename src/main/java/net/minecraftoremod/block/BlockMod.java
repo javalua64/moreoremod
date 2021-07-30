@@ -14,21 +14,21 @@ public class BlockMod {
 
     //Basic Block
 
-    public static final Block CASTLE_WALL = BlockUtils.createBasicBlock("castlewall", Material.ROCK, 0.5f, 0.9f, ToolType.PICKAXE);
-    public static final Item CASTLE_WALL_ITEM = BlockUtils.createBlockItem(CASTLE_WALL, ItemGroup.MISC);
+    public static final Block LAPIS = BlockUtils.createBasicBlock("lapis", Material.ROCK, 0.5f, 0.9f, ToolType.PICKAXE);
+    public static final Item LAPISITEM = BlockUtils.createBlockItem(lapis, ItemGroup.MISC);
 
 
     @SubscribeEvent
     public static void registerBlockItems(RegistryEvent.Register<Item> event) {
 
-        event.getRegistry().register(CASTLE_WALL_ITEM);
+        event.getRegistry().register(LAPISITEM);
 
     }
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
 
-        event.getRegistry().register(CASTLE_WALL);
+        event.getRegistry().register(LAPIS);
 
 
     }
