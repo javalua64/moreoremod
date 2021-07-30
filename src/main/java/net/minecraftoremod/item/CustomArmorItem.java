@@ -20,3 +20,4 @@ public class CustomArmorItem extends ArmorItem {
     }
     public static Item HELM = new CustomArmorItem(ArmorMaterial.IRON, EquipmentSlotType.HEAD, properties).setRegistryName(BaseMod.MODID,"customhelm");
 }
+//test
