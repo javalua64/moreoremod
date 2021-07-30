@@ -11,6 +11,7 @@ public class ItemMod {
 
     //BASIC ITEMS
     public static final Item blueingot = ItemUtils.buildbasicItem("blueingot", ItemGroup.MISC);
+    public static final Item rubyingot = ItemUtils.buildbasicItem("rubyingot", ItemGroup.MISC);
 
     //FOODS
 
@@ -21,6 +22,7 @@ public class ItemMod {
         //BASIC ITEMS
         event.getRegistry().register(blueingot);
         event.getRegistry().register(CustomArmorItem.HELM);
+        event.getRegistry().register(rubyingot)
         // ITEMS
 
         // TOOLS
