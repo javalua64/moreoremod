@@ -20,6 +20,7 @@ public class ItemMod {
 
         //BASIC ITEMS
         event.getRegistry().register(blueingot);
+        event.getRegistry().register(CustomArmorItem.HELM);
         // ITEMS
 
         // TOOLS
