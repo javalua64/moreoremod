@@ -3,6 +3,8 @@ package net.minecraftoremod.item;
 import net.minecraft.entity.Entity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.util.SoundEvent;
+import net.minecraft.util.SoundEvents;
 import net.minecraftoremod.BaseMod;
 
 public class CustomArmorItem extends ArmorItem {
@@ -18,7 +20,6 @@ public class CustomArmorItem extends ArmorItem {
             return "examplemod:textures/models/armor/custom_armor_layer_1.png";
         }
     }
-    
-    public static Item HELM = new CustomArmorItem(ArmorMaterial.IRON, EquipmentSlotType.HEAD, properties).setRegistryName(BaseMod.MODID,"customhelm");
+    public static IArmorMaterial customMaterial = ItemUtils.buildArmorMaterial("emerald", 1000000, new int[]{5,8,6,4}, 200, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 897886, 0.99f, "minecraft:planks");
+    public static Item HELM = new CustomArmorItem(customMaterial, EquipmentSlotType.HEAD, properties).setRegistryName(BaseMod.MODID,"emeraldhelm");
 }
-//test
