@@ -1,4 +1,5 @@
 {
-  "item.examplemod.structuregel": "Structure Gel",
-  "block.examplemod.castlewall": "Castle Wall"
+  "item.examplemod.rubyingot":"Ruby",
+  "item.examplemod.blueingot":"Blue Ingot"
+
 }
