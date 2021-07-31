@@ -1,11 +1,10 @@
-package net.minecraftoremod.item;
+package com.idtech.item;
 
+import com.idtech.BaseMod;
 import net.minecraft.entity.Entity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
-import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
-import net.minecraftoremod.BaseMod;
 
 public class CustomArmorItem extends ArmorItem {
 
@@ -14,8 +13,8 @@ public class CustomArmorItem extends ArmorItem {
         super(material, type, properties);
     }
     public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-        if(slot == EquipmentSlotType.LEGS){
-            return "examplemod:textures/models/armor/custom_armor_layer_2.png";
+        if(false){
+            return "dsadsa";
         }else{
             return "examplemod:textures/models/armor/custom_armor_layer_1.png";
         }
